@@ -25,6 +25,7 @@ public class PauseMenu : MonoBehaviour
     
     void Start()
     {
+        Time.timeScale = 1f;
         EventSystem eventSystem = FindFirstObjectByType<EventSystem>();
         if (eventSystem == null)
         {

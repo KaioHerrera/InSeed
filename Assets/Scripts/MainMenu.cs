@@ -134,6 +134,8 @@ public class MainMenu : MonoBehaviour
             Debug.LogError("Nome da cena do jogo não configurado!");
             return;
         }
+
+        Time.timeScale = 1f;
         
         bool sceneExists = false;
         string[] possiblePaths = {
